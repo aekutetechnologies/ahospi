@@ -54,6 +54,7 @@ export default function SignupPage() {
                             onChange={(e) => setUser({ ...user, usertype: e.target.value })}
                             className="h-11 rounded mt-3 w-full mb-3"
                         >
+                            <option value="">select</option>
                             <option value="Doctor">Doctor</option>
                             <option value="Nurse">Nurse</option>
                             <option value="Patient">Patient</option>
